@@ -7,6 +7,15 @@
     "url": "git+https://github.com/Gangyong92/super-gulp.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10"
+  }
 }
- 
